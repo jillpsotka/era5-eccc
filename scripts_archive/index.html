@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Get Image Pixel Coordinates</title>
+<!--         <script type="text/javascript" src="GetImagePixel.js"></script> -->
+    </head>
+
+    <body>
+    
+    <p>Image to use:</p>
+    <img id="myimage" width="1000px" height="1000px" src="tif_plots/2025-08-T-anom.png">
+    
+    <script type="text/javascript">
+
+    myimage.onclick = function(e) {
+        var ratioX = e.target.naturalWidth / e.target.offsetWidth;
+        var ratioY = e.target.naturalHeight / e.target.offsetHeight;
+        
+        var imgX = Math.round(e.offsetX * ratioX);
+        var imgY = Math.round(e.offsetY * ratioY);
+
+        console.log(imgX, imgY);
+    };
+    
+    </script>
+    
+    </body>
+</html>

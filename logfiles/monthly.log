@@ -1,0 +1,138 @@
+FileNotFoundError: [Errno 2] No such file or directory: '/home/psotkaj/clim4/era5-data/monthly/2025-07.nc'
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  -0.86 deg C
+Total P anomaly for the region:  110.0 %
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  0.29 deg C
+Total P anomaly for the region:  110.0 %
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  2.23 deg C
+Total P anomaly for the region:  108.0 %
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  5.34 deg C
+Total P anomaly for the region:  148.0 %
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  5.88 deg C
+Total P anomaly for the region:  135.0 %
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  0.32 deg C
+Total P anomaly for the region:  99.0 %
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  -2.0 deg C
+Total P anomaly for the region:  126.0 %
+2026
+2026
+2026
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  -2.0 deg C
+Total P anomaly for the region:  126.0 %
+2026
+2026
+2026
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  -4.88 deg C
+Total P anomaly for the region:  55.0 %
+2026
+2026
+2026
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for the region:  -4.88 deg C
+Total P anomaly for the region:  55.0 %
+2026
+2026
+2026
+Traceback (most recent call last):
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+           ~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+            ~~~~~~~~~~~^^^^^
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/psotkaj/clim4/era5-data/daily/era5-2026-05-01.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '3b28fca5-6546-47f6-958d-12f29468ae95']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/psotkaj/era5_for_arcc/plots.py", line 396, in <module>
+    utils.daily_to_monthly(str(current_year),month_names[last_season_index],incomplete)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/psotkaj/era5_for_arcc/utils.py", line 24, in daily_to_monthly
+    ds = xr.open_dataset(f)
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/api.py", line 670, in open_dataset
+    backend_ds = backend.open_dataset(
+        filename_or_obj,
+    ...<2 lines>...
+        **kwargs,
+    )
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/netCDF4_.py", line 666, in open_dataset
+    store = NetCDF4DataStore.open(
+        filename_or_obj,
+    ...<8 lines>...
+        autoclose=autoclose,
+    )
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/netCDF4_.py", line 452, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/netCDF4_.py", line 393, in __init__
+    self.format = self.ds.data_model
+                  ^^^^^^^
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/netCDF4_.py", line 461, in ds
+    return self._acquire()
+           ~~~~~~~~~~~~~^^
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/netCDF4_.py", line 455, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2521, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2158, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/home/psotkaj/clim4/era5-data/daily/era5-2026-05-01.nc'
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+/home/psotkaj/anaconda3/envs/project/lib/python3.13/site-packages/osgeo/gdal.py:311: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.19244148..1.1399939].
+Total T anomaly for ARCC:  -3.16 deg C
+Total P anomaly for ARCC:  73.0 %
+2026
+2026
+done
