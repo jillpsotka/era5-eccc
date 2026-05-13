@@ -1,0 +1,41 @@
+# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').
+# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+# let cron use conda
+SHELL=/bin/bash
+BASH_ENV=~/.bashrc_conda
+#
+# download latest era5 (t2m and tp) for Canada every day
+0 2 * * * /home/psotkaj/era5_for_arcc/shell-scripts/daily-api-request.sh >> /home/psotkaj/era5_for_arcc/logfiles/daily.log 2>&1
+#
+# monthly plots on the 6th of each month
+30 13,14,23 6 * * /home/psotkaj/era5_for_arcc/shell-scripts/monthly_era5_plots.sh >> /home/psotkaj/era5_for_arcc/logfiles/monthly.log 2>&1
+#
+# seasonal plots on the 6th of Mar, June, Sept, Dec
+40 13,14,23 6 Mar,Jun,Sep,Dec * /home/psotkaj/era5_for_arcc/shell-scripts/seasonal_era5_plots.sh >> /home/psotkaj/era5_for_arcc/logfiles/seasonal.log 2>&1
+#
+# month to date plots on sundays
+50 13,14,23 * * 1 /home/psotkaj/era5_for_arcc/shell-scripts/month-to-date_era5_plots.sh >> /home/psotkaj/era5_for_arcc/logfiles/mtd.log 2>&1
+#
+# season to date plots on sundays in months that aren't dec, march, june, sept
+55 13,14,23 * 1,2,4,5,7,8,10,11 1 /home/psotkaj/era5_for_arcc/shell-scripts/season-to-date_era5_plots.sh >> /home/psotkaj/era5_for_arcc/logfiles/std.log 2>&1
