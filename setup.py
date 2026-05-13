@@ -10,7 +10,7 @@ vars = {'lats_full': slice(85,41),
         'normals_years': range(1991,2021), #1991-2020 normals period
         'lats' : {'ARCC': slice(84,53)},
         'lons' : {'ARCC':slice(-142,-55)},
-        'central_longitude': {'ARCC':262},
+        'central_longitude': {'ARCC':262},  # central coordinates for plotting
         'central_latitude':{'ARCC':70}
 }
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/jpsotka/clim4/era5-data/from_ruping
+cd ~/clim4/era5-data/from_ruping
 for yr in $(seq 1972 1999); do
     for mo in {01..12}; do
         yr += $mo;

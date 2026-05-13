@@ -13,6 +13,7 @@ import cfgrib
 import xarray as xr
 import glob
 from setup import paths, vars_for_api
+import time
 
 
 pathname_data = paths['pathname_data']
@@ -20,12 +21,12 @@ lons = vars_for_api['lons']
 lats = vars_for_api['lats']
 
 today = datetime.date.today()
-print('Starting job',today)
+print('\n Starting job',today)
 files_downloaded = 0
 
 # first check if we are missing any files from the past 5-10 days
 dataset = "reanalysis-era5-single-levels"
-for i in range(5,7):  # download 5 days ago (partial) and 6 days ago (full to overwrite yesterday's partial)
+for i in [6,5]:  # download 5 days ago (partial) and 6 days ago (full to overwrite yesterday's partial)
     day = today - timedelta(days=i)
     filename = pathname_data+"daily/era5-"+day.strftime("%Y-%m-%d")+".nc"
     print("Retrieving "+day.strftime("%Y-%m-%d")+" from Copernicus CDS...")
@@ -71,7 +72,7 @@ for i in range(5,7):  # download 5 days ago (partial) and 6 days ago (full to ov
     #         os.remove(f)
     #     continue
     # convert time and step into valid_time dimension
-    P_converted = xr.Dataset({"tp":(["time","latitude","longitude"],P.tp.values.reshape((len(P.time)*len(P.step),len(P.latitude),len(P.longitude))))},
+    P_converted = xr.Dataset({"tp":(["time","latitude","longitude"],P.tp.values.reshape((P.time.size*P.step.size,P.latitude.size,P.longitude.size)))},
                 {"time":("time",P.valid_time.values.flatten()),"latitude":P.latitude,"longitude":P.longitude})
     P_converted['tp'] = P_converted['tp'] * 1000 # m to mm
     P_converted = P_converted.dropna(dim='time')
@@ -84,5 +85,5 @@ for i in range(5,7):  # download 5 days ago (partial) and 6 days ago (full to ov
         files_downloaded += 1
         for f in glob.glob(filename_grib+'*'):  # delete grib file and index file
             os.remove(f)
-
+    time.sleep(400) # waiting for a few minutes makes api less likely to flag you as high usage
 print('Success',today,', ',files_downloaded,'file(s) downloaded.\n')
